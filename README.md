@@ -27,4 +27,4 @@ When it gets that kind of input it'll return something like this:
 
 ```
 
-![Hanzi Converter With Dialog Input](https://methnen-dropshare.s3.amazonaws.com/pb-JrAFQrmUL3.png)
+![Hanzi Converter With Dialog Input](https://methnen-dropshare.s3.amazonaws.com/pb-KcJ3drCwuY.png)
