@@ -24,7 +24,6 @@ When it gets that kind of input it'll return something like this:
 ```
 那他自己能同意吗?|nà tā zì jǐ néng tóng yì ma?|Would he agree with this?
 你知道吗?|nǐ zhī dào ma?|You know?
-
 ```
 
 ![Hanzi Converter With Dialog Input](https://methnen-dropshare.s3.amazonaws.com/pb-KcJ3drCwuY.png)
