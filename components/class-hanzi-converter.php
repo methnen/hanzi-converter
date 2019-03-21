@@ -57,12 +57,12 @@ class Hanzi_Converter {
 			<textarea name="<?php echo esc_attr( $this->get_field_name( 'hanzi_conversion' ) ); ?>" id="<?php echo esc_attr( $this->get_field_id( 'hanzi-conversion' ) ); ?>" rows="5" cols="40"></textarea>
 		</p>
 		<style>
-			#<?php echo esc_attr( $this->get_field_id( 'hanzi-value' ) ); ?>,
-			#<?php echo esc_attr( $this->get_field_id( 'hanzi-conversion' ) ); ?> {
+			#hanzi-converter-hanzi-value,
+			#hanzi-converter-hanzi-conversion {
 				width: 100%;
 			}
 			
-			#<?php echo esc_attr( $this->get_field_id( 'error' ) ); ?> {
+			#hanzi-converter-error {
 				display: inline-block;
 				margin-left: .5rem;
 				color: red;
