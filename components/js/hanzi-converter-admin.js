@@ -7,7 +7,7 @@ var hanzi_converter_admin = {};
 	hanzi_converter_admin.init = function() {
 		$('#hanzi-converter-convert' ).on('click', function(event) {
 			event.preventDefault();
-			
+
 			hanzi_converter_admin.get_conversion();
 		});
 	};
@@ -31,7 +31,7 @@ var hanzi_converter_admin = {};
 				$( '#hanzi-converter-error' ).text( response.data );
 				return false;
 			}
-			
+
 			$( '#hanzi-converter-hanzi-conversion' ).val( response.data );
 		});
 	};
