@@ -165,7 +165,7 @@ class Hanzi_Converter {
 	 * Convert Hanzi to Pinyin
 	 */
 	public function hanzi_to_pinyin( $hanzi ) {
-		$pinyin = $this->pinyin()->sentence( $hanzi );
+		$pinyin = $this->pinyin()->sentence( $hanzi, PINYIN_TONE );
 		return trim( $pinyin );
 	}
 
